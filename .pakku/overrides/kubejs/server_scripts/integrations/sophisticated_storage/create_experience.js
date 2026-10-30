@@ -1,12 +1,11 @@
-// Use Sophisticated Core's XP fluid as the shared experience fluid.
-// Sophisticated backpacks and storage XP Pumps create this fluid.
+// Use Create's XP fluid for recipe outputs.
+// Sophisticated XP remains valid as an input through the experience tag.
 
 const EXPERIENCE_TAG = 'forge:experience';
 const CREATE_EXPERIENCE = 'create_enchantment_industry:experience';
-const SOPHISTICATED_EXPERIENCE = 'sophisticatedcore:xp_still';
 
 ServerEvents.tags('fluid', event => {
-    // Allows Sophisticated XP Pumps to extract Create XP if a tank contains it.
+    // Allows Sophisticated XP Pumps to extract Create XP from tanks.
     event.add(EXPERIENCE_TAG, CREATE_EXPERIENCE);
 });
 
@@ -17,7 +16,7 @@ ServerEvents.recipes(event => {
     });
 
     const experienceOutput = amount => ({
-        fluid: SOPHISTICATED_EXPERIENCE,
+        fluid: CREATE_EXPERIENCE,
         amount: amount
     });
 
@@ -97,7 +96,6 @@ ServerEvents.recipes(event => {
     };
 
     addGrindingRecipe('experience_block', 'create:experience_block', 2187);
-    addGrindingRecipe('experience_nugget', 'create:experience_nugget', 243);
     addGrindingRecipe(
         'super_experience_block',
         'create_enchantment_industry:super_experience_block',
