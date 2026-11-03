@@ -1,0 +1,10 @@
+## Rosedalean SMP 2.4.0
+
+### Added
+
+- Added Dream Displays, Lexiconfig, Simple Radio, and Yet Another World Protector.
+
+### Changed
+
+- Enabled Indium and Athena CTM on both client and server.
+- Removed the experience cake filling recipe and regular experience nugget grinding recipe.

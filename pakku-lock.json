@@ -439,7 +439,7 @@
                 "sscVhAQJqsV1YuUd"
             ],
             "type": "MOD",
-            "side": "CLIENT",
+            "side": "BOTH",
             "slug": {
                 "modrinth": "athena-ctm"
             },
@@ -3920,6 +3920,49 @@
             ]
         },
         {
+            "pakku_id": "JVAkzU2S56FHN11s",
+            "pakku_links": [
+                "sscVhAQJqsV1YuUd"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "dreamdisplays"
+            },
+            "name": {
+                "modrinth": "Dream Displays"
+            },
+            "id": {
+                "modrinth": "4IIKQyBu"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "dreamdisplays-fabric-1.20.1-1.10.8.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "quilt"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/4IIKQyBu/versions/t6w2lhqG/dreamdisplays-fabric-1.20.1-1.10.8.jar",
+                    "id": "t6w2lhqG",
+                    "parent_id": "4IIKQyBu",
+                    "hashes": {
+                        "sha512": "e7eecc568de280292133a2b8002334769fd708c8251c7f5f1072342e0210f52fecbadac556f75e658b70d5f4ebe052c462754b5ac2c691078a90b2ef63b755f5",
+                        "sha1": "3cd6bc0e1c8665a717d002707e1c07daffd5f21c"
+                    },
+                    "required_dependencies": [
+                        "P7dR8mSH"
+                    ],
+                    "size": 26833095,
+                    "date_published": "2026-10-31T00:45:22.010779Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "PuwbdYYi47ZgyP09",
             "type": "MOD",
             "side": "BOTH",
@@ -5930,7 +5973,7 @@
                 "kJL9SZJKL75RUegi"
             ],
             "type": "MOD",
-            "side": "CLIENT",
+            "side": "BOTH",
             "slug": {
                 "modrinth": "indium"
             },
@@ -6519,6 +6562,62 @@
                     ],
                     "size": 46694,
                     "date_published": "2023-06-28T05:09:45.146293Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "kwosKky2ysElcb6g",
+            "pakku_links": [
+                "sscVhAQJqsV1YuUd"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "lexiconfig"
+            },
+            "name": {
+                "modrinth": "Lexiconfig"
+            },
+            "id": {
+                "modrinth": "D157Rgyf"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "lexiconfig-fabric-1.4.22-epic.jar",
+                    "mc_versions": [
+                        "1.18",
+                        "1.18.1",
+                        "1.18.2",
+                        "1.19",
+                        "1.19.1",
+                        "1.19.2",
+                        "1.19.3",
+                        "1.19.4",
+                        "1.20",
+                        "1.20.1",
+                        "1.20.2",
+                        "1.20.3",
+                        "1.20.4",
+                        "1.20.5",
+                        "1.20.6"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/D157Rgyf/versions/smezP0Bv/lexiconfig-fabric-1.4.22-epic.jar",
+                    "id": "smezP0Bv",
+                    "parent_id": "D157Rgyf",
+                    "hashes": {
+                        "sha512": "acb20e218e8106250ead6c738145ae5e01923741622b9be018a37ac649a4fa4b196a715682ec845c5e1a54561ca6bd94b32a6b917dede79f9fe26341eee489ef",
+                        "sha1": "c1a2dc2588ef31320caf67b819ca601f3301cb22"
+                    },
+                    "required_dependencies": [
+                        "P7dR8mSH"
+                    ],
+                    "size": 278151,
+                    "date_published": "2026-10-26T18:52:18.320127Z"
                 }
             ]
         },
@@ -8903,6 +9002,53 @@
             ]
         },
         {
+            "pakku_id": "qhiXTpMoIWZOoPMu",
+            "pakku_links": [
+                "kwosKky2ysElcb6g",
+                "sscVhAQJqsV1YuUd",
+                "GWTGWnxq2X6xFZAP"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "simple-radio"
+            },
+            "name": {
+                "modrinth": "Simple Radio"
+            },
+            "id": {
+                "modrinth": "S7b8mMXS"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "simpleradio-fabric-1.20.1-4.6.7.10.jar",
+                    "mc_versions": [
+                        "1.20",
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/S7b8mMXS/versions/pB9ruH9m/simpleradio-fabric-1.20.1-4.6.7.10.jar",
+                    "id": "pB9ruH9m",
+                    "parent_id": "S7b8mMXS",
+                    "hashes": {
+                        "sha512": "1199b6694cac5d989f77cb16629937c5380da7ae3d012c27f2a3f5a1b0500a4ad0041c5dbf7416d61b16f3740d59e52e41d9c814e911579c4ee9b921ccf8d5d1",
+                        "sha1": "fa4c5328c9f806ed271701a67dee7195c8aa8db1"
+                    },
+                    "required_dependencies": [
+                        "D157Rgyf",
+                        "P7dR8mSH",
+                        "9eGKb6K1"
+                    ],
+                    "size": 1046403,
+                    "date_published": "2026-10-27T06:55:44.564319Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "GWTGWnxq2X6xFZAP",
             "type": "MOD",
             "side": "BOTH",
@@ -10763,6 +10909,48 @@
                     ],
                     "size": 307196,
                     "date_published": "2023-09-26T04:52:38.721036Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "1SDqCk7WWGJHSiWI",
+            "pakku_links": [
+                "4IKbtmUGqNd8YSKL"
+            ],
+            "type": "MOD",
+            "side": "SERVER",
+            "slug": {
+                "modrinth": "yawp"
+            },
+            "name": {
+                "modrinth": "Yet Another World Protector"
+            },
+            "id": {
+                "modrinth": "py6EMmAJ"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "yawp-1.20.1-fabric-0.6.3-beta1.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://cdn.modrinth.com/data/py6EMmAJ/versions/4HuYF8X5/yawp-1.20.1-fabric-0.6.3-beta1.jar",
+                    "id": "4HuYF8X5",
+                    "parent_id": "py6EMmAJ",
+                    "hashes": {
+                        "sha512": "e77fd39152dcb28e59f8c34aa1a85fae07dca3d5fe7fc1994ef220709b6db5e79493614d9510f20e17a940a2a79ea5613070b6f599a0e466e95200ef27ba839c",
+                        "sha1": "bfc54ce165fd717fd3f6798a7d44400379e5a718"
+                    },
+                    "required_dependencies": [
+                        "ohNO6lps"
+                    ],
+                    "size": 780098,
+                    "date_published": "2025-12-22T20:24:06.940904Z"
                 }
             ]
         },
