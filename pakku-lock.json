@@ -4638,43 +4638,6 @@
             ]
         },
         {
-            "pakku_id": "DTL7piX1EQHByFad",
-            "type": "MOD",
-            "side": "BOTH",
-            "slug": {
-                "modrinth": "essential-commands"
-            },
-            "name": {
-                "modrinth": "Essential Commands"
-            },
-            "id": {
-                "modrinth": "6VdDUivB"
-            },
-            "files": [
-                {
-                    "type": "modrinth",
-                    "file_name": "essential_commands-0.35.3-mc1.20.1.jar",
-                    "mc_versions": [
-                        "1.20.1"
-                    ],
-                    "loaders": [
-                        "fabric"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/6VdDUivB/versions/rzMal9h2/essential_commands-0.35.3-mc1.20.1.jar",
-                    "id": "rzMal9h2",
-                    "parent_id": "6VdDUivB",
-                    "hashes": {
-                        "sha512": "e497880e2d8be80aedd719ccef82ac40e398d296f74c04be9ebe1a78c2be5ac652f6c33cf679857b42e40defc42eb835b866c9efbbe6e8d917e8fd93a0d2cd60",
-                        "sha1": "70a46d1e7e88357a50bd6b372770fe37691bff1d"
-                    },
-                    "required_dependencies": [],
-                    "size": 1581037,
-                    "date_published": "2024-06-19T02:17:24.240358Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "GU6dP5vW4XSQaljj",
             "type": "MOD",
             "side": "BOTH",
@@ -9585,6 +9548,50 @@
                     ],
                     "size": 761615,
                     "date_published": "2026-01-10T03:58:03.266938Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "58lvmBCuNKwfIUQb",
+            "pakku_links": [
+                "sscVhAQJqsV1YuUd",
+                "kmddDguo3W7PZ7wX"
+            ],
+            "type": "MOD",
+            "side": "SERVER",
+            "slug": {
+                "modrinth": "syrup-essentials"
+            },
+            "name": {
+                "modrinth": "Syrup Essentials"
+            },
+            "id": {
+                "modrinth": "5ilOuE0e"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "syrup_essentials-0.4.3+1.20.1-fabric.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://cdn.modrinth.com/data/5ilOuE0e/versions/LTkOv68g/syrup_essentials-0.4.3+1.20.1-fabric.jar",
+                    "id": "LTkOv68g",
+                    "parent_id": "5ilOuE0e",
+                    "hashes": {
+                        "sha512": "f3386f76f6675c0165819fde04e0634c5a1542cf52414d1477b7f099dfc0f8b1de167f459bd4461a31208510a8a1548addd6ffebc2a482b57a0e1ee82c63e6ae",
+                        "sha1": "74c3623a9641c55e5f417370bae75d413ee32080"
+                    },
+                    "required_dependencies": [
+                        "P7dR8mSH",
+                        "9tBNzmjo"
+                    ],
+                    "size": 86358,
+                    "date_published": "2026-11-02T03:31:41.303883Z"
                 }
             ]
         },
