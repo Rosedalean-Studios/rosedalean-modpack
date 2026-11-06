@@ -33,7 +33,7 @@
         "disable-enderman-picking-up-blocks": {
             "side": "BOTH"
         },
-        "essential-commands": {
+        "syrup-essentials": {
             "side": "BOTH"
         },
         "invview": {

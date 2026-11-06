@@ -9558,7 +9558,7 @@
                 "kmddDguo3W7PZ7wX"
             ],
             "type": "MOD",
-            "side": "SERVER",
+            "side": "BOTH",
             "slug": {
                 "modrinth": "syrup-essentials"
             },
